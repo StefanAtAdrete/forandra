@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: sv
+uuid: 5fae1bf5-8dad-4c90-b7fe-576d5a64d5db
+name: 'Change now'
+mail: info@forandra.nu
+slogan: 'You are looking at yourself'
+page:
+  403: ''
+  404: ''
+  front: /startpage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

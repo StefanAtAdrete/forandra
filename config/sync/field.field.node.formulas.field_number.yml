@@ -1,0 +1,23 @@
+uuid: 8a0ce84c-9f18-4c7a-8d8b-575a7c29c367
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.formulas
+id: node.formulas.field_number
+field_name: field_number
+entity_type: node
+bundle: formulas
+label: Nummer
+description: 'Grabovoinummer eller heltal'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,24 @@
+uuid: c3371cd6-d21e-4c1f-b277-58662fa93208
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.formulas
+  module:
+    - text
+id: node.formulas.body
+field_name: body
+entity_type: node
+bundle: formulas
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

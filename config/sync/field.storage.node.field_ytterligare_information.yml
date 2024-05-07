@@ -1,0 +1,19 @@
+uuid: 3786e1f3-eede-4e40-98f9-9a92fd022992
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ytterligare_information
+field_name: field_ytterligare_information
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

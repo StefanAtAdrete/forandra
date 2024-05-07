@@ -1,0 +1,20 @@
+uuid: cec38468-0182-469e-9c0d-40264da69964
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.formulas
+  module:
+    - path
+id: node.formulas.path
+field_name: path
+entity_type: node
+bundle: formulas
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,22 @@
+uuid: e38b11a9-76ce-487d-83d6-7c52e444c3db
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - forandra
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: forandra_content
+theme: forandra
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Huvudsakligt sidinnehåll'
+  label_display: '0'
+  provider: system
+visibility: {  }

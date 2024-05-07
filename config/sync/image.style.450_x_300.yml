@@ -1,0 +1,17 @@
+uuid: 6e1ef131-aa4c-4140-bd3a-c0bd19d26d54
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: 450_x_300
+label: '450 x 300'
+effects:
+  fec60633-f838-4253-823d-48c966e55077:
+    uuid: fec60633-f838-4253-823d-48c966e55077
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 450
+      height: 300
+      crop_type: focal_point

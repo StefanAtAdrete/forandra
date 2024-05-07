@@ -1,0 +1,22 @@
+uuid: adf521ed-94fc-434e-a312-c9a4975915ad
+langcode: sv
+status: true
+dependencies:
+  config:
+    - node.type.formulas
+id: node.formulas.promote
+field_name: promote
+entity_type: node
+bundle: formulas
+label: 'Visas på startsidan'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: På
+  off_label: Av
+field_type: boolean

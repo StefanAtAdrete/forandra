@@ -1,0 +1,17 @@
+uuid: 3807e7b0-082b-4106-9c97-8ea4a0af8e80
+langcode: sv
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Formler
+type: formulas
+description: 'Grabovoi-nummer, symboler, mantras mm'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

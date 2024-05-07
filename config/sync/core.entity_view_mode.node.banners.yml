@@ -1,0 +1,11 @@
+uuid: ead3cceb-bef2-4231-8617-05b9564c39af
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.banners
+label: 'Banners & Cards'
+description: 'Banners for horizontal presentation on mobile and cards for desktop. Use Bootstrap columns.'
+targetEntityType: node
+cache: true

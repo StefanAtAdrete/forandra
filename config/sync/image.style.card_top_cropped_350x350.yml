@@ -1,0 +1,17 @@
+uuid: b0580247-1a15-41a7-a5e1-3a3ac406f44f
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: card_top_cropped_350x350
+label: 'Card top cropped 350x260'
+effects:
+  fec60633-f838-4253-823d-48c966e55077:
+    uuid: fec60633-f838-4253-823d-48c966e55077
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 260
+      crop_type: focal_point

@@ -1,0 +1,17 @@
+langcode: sv
+disable_messages_enable: '0'
+disable_messages_exclude_users: ''
+disable_messages_filter_by_page: 0
+disable_messages_page_filter_paths: '*'
+disable_messages_enable_debug: '0'
+disable_messages_debug_visible_div: '0'
+disable_messages_ignore_patterns: "Arbetar i underhållsläge. Koppla upp.\r\n.*\r\nStatus message\r\nOperating in maintenance mode. Go online."
+disable_messages_enable_permissions: '0'
+disable_messages_ignore_exclude: '1'
+disable_messages_ignore_case: '1'
+disable_messages_strip_html_tags: '1'
+disable_messages_ignore_regex:
+  - '/^Arbetar i underhållsläge. Koppla upp.$/i'
+  - '/^.*$/i'
+  - '/^Status message$/i'
+  - '/^Operating in maintenance mode. Go online.$/i'

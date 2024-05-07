@@ -1,0 +1,11 @@
+uuid: 6df76d31-99cf-4cdb-8e1c-a80b3f166753
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.card_top_image
+label: 'Card top image'
+description: 'For top display in a card with upper/lower split design.'
+targetEntityType: media
+cache: true

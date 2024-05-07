@@ -1,0 +1,8 @@
+uuid: 0c4caa27-99a7-46e0-bbaa-69e50501534d
+langcode: en
+status: true
+dependencies: {  }
+id: forandra_account_menu
+theme: ''
+text: ''
+classes: ''

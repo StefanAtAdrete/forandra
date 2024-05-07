@@ -1,0 +1,21 @@
+uuid: 0f29cd3a-9ae1-459b-9e23-01921219d0b4
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_when_during_day
+    - node.type.formulas
+  module:
+    - options
+id: node.formulas.field_when_during_day
+field_name: field_when_during_day
+entity_type: node
+bundle: formulas
+label: 'När på dagen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

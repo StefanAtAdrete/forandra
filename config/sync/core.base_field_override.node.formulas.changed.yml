@@ -1,0 +1,18 @@
+uuid: 7d233e62-a653-4e60-bb53-7c1f2d1b9014
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.formulas
+id: node.formulas.changed
+field_name: changed
+entity_type: node
+bundle: formulas
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

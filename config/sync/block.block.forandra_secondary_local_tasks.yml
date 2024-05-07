@@ -1,0 +1,22 @@
+uuid: 5822d481-3c2e-44df-b12c-f5bbd73fb2ce
+langcode: sv
+status: true
+dependencies:
+  theme:
+    - forandra
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: forandra_secondary_local_tasks
+theme: forandra
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Sekundära flikar'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

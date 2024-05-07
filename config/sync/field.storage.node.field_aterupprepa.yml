@@ -1,0 +1,20 @@
+uuid: 5f97ce73-f49e-4c57-8c0c-4d5ed143732b
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_aterupprepa
+field_name: field_aterupprepa
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

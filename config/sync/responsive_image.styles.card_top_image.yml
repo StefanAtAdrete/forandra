@@ -1,0 +1,46 @@
+uuid: 25cc0d2a-b57b-4518-975b-66c1de857c95
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.450_x_300
+    - image.style.card_top_cropped_350x350
+    - image.style.max_325x325
+    - image.style.thumbnail
+  theme:
+    - forandra
+id: card_top_image
+label: 'Banners and cards'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: 450_x_300
+    breakpoint_id: bootstrap_barrio.extraextra
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: card_top_cropped_350x350
+    breakpoint_id: bootstrap_barrio.extra
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: card_top_cropped_350x350
+    breakpoint_id: bootstrap_barrio.large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: card_top_cropped_350x350
+    breakpoint_id: bootstrap_barrio.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: card_top_cropped_350x350
+    breakpoint_id: bootstrap_barrio.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: thumbnail
+    breakpoint_id: bootstrap_barrio.xs
+    multiplier: 1x
+breakpoint_group: forandra
+fallback_image_style: max_325x325

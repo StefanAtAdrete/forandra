@@ -1,0 +1,30 @@
+uuid: a5532aaa-9f97-4abf-9e9c-cf6574ba1ebb
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_when_during_day
+field_name: field_when_during_day
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Morgonen
+      label: Morgonen
+    -
+      value: 'Mitt på dagen'
+      label: 'Mitt på dagen'
+    -
+      value: Kvällen
+      label: Kvällen
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

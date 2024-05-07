@@ -1,0 +1,18 @@
+uuid: 96d1b02d-f9fe-4c18-abce-d442991216f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.hero_landscape_large
+  theme:
+    - forandra
+id: hero
+label: 'Hero - landscape'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: hero_landscape_large
+    breakpoint_id: bootstrap_barrio.extraextra
+    multiplier: 1x
+breakpoint_group: forandra
+fallback_image_style: hero_landscape_large

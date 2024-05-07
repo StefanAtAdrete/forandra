@@ -1,0 +1,23 @@
+uuid: 44633555-3bb4-400e-925b-f27119c6651a
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - forandra
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: forandra_syndicate
+theme: forandra
+region: footer_second
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

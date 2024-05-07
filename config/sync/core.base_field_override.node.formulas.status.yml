@@ -1,0 +1,22 @@
+uuid: 1a98bcaf-fea8-4d3d-9b69-b83f596ead8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.formulas
+id: node.formulas.status
+field_name: status
+entity_type: node
+bundle: formulas
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

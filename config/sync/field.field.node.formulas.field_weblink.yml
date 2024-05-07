@@ -1,0 +1,23 @@
+uuid: 6eb4c109-9ad5-4700-8484-fea97d25c833
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weblink
+    - node.type.formulas
+  module:
+    - link
+id: node.formulas.field_weblink
+field_name: field_weblink
+entity_type: node
+bundle: formulas
+label: 'Länkar till mer information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

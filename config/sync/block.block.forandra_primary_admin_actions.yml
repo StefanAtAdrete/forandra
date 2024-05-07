@@ -1,0 +1,20 @@
+uuid: 5b03b412-d594-4796-9520-17d2ea4d14fa
+langcode: sv
+status: true
+dependencies:
+  theme:
+    - forandra
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: forandra_primary_admin_actions
+theme: forandra
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primära administratörsåtgärder'
+  label_display: '0'
+  provider: core
+visibility: {  }

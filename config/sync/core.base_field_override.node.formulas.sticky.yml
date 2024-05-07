@@ -1,0 +1,22 @@
+uuid: cf61ccc6-9f78-4489-a940-833caf490e0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.formulas
+id: node.formulas.sticky
+field_name: sticky
+entity_type: node
+bundle: formulas
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

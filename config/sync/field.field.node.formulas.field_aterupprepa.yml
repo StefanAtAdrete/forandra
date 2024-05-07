@@ -1,0 +1,25 @@
+uuid: 595c5d8f-f0e9-49e1-ac57-729c58979e07
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aterupprepa
+    - node.type.formulas
+id: node.formulas.field_aterupprepa
+field_name: field_aterupprepa
+entity_type: node
+bundle: formulas
+label: Återupprepa
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 25
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: 'gånger '
+field_type: integer

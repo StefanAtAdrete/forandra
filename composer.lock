@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e90d8032034d2f6bccb336d50487b5c",
+    "content-hash": "71680b56dfb0920d48e43e67e495cc60",
     "packages": [
         {
             "name": "arthurkushman/query-path",
@@ -2195,6 +2195,54 @@
             "homepage": "https://www.drupal.org/project/advancedqueue",
             "support": {
                 "source": "https://git.drupalcode.org/project/advancedqueue"
+            }
+        },
+        {
+            "name": "drupal/ai_interpolator",
+            "version": "1.0.0-rc2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ai_interpolator.git",
+                "reference": "1.0.0-rc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ai_interpolator-1.0.0-rc2.zip",
+                "reference": "1.0.0-rc2",
+                "shasum": "72bcd0118786f6a9c488f95bd5e435e1531814fa"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-rc2",
+                    "datestamp": "1713881324",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "alexandersluiter",
+                    "homepage": "https://www.drupal.org/user/796516"
+                },
+                {
+                    "name": "Marcus_Johansson",
+                    "homepage": "https://www.drupal.org/user/385947"
+                }
+            ],
+            "description": "Provides a way to fill structured fields based on AI queries on a textual field.",
+            "homepage": "https://www.drupal.org/project/ai_interpolator",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ai_interpolator"
             }
         },
         {
@@ -5447,6 +5495,60 @@
                 "forum": "https://drupal.stackexchange.com/search?q=eu+cookie+compliance",
                 "issues": "https://www.drupal.org/project/issues/eu_cookie_compliance?version=8.x",
                 "slack": "https://app.slack.com/client/T06GX3JTS/C012XBTH81E"
+            }
+        },
+        {
+            "name": "drupal/exclude_node_title",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/exclude_node_title.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/exclude_node_title-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "c6f6c0e06c202f3ace436867a459f8672e1494f5"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1659271679",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "gabrielu",
+                    "homepage": "https://www.drupal.org/user/279352"
+                },
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/user/3580850"
+                }
+            ],
+            "description": "Provides the option of excluding node title(s) from display by individual node, node bundle, and view mode.",
+            "homepage": "https://www.drupal.org/project/exclude_node_title",
+            "support": {
+                "source": "https://git.drupalcode.org/project/exclude_node_title",
+                "issues": "https://www.drupal.org/project/issues/exclude_node_title"
             }
         },
         {
@@ -10469,17 +10571,17 @@
         },
         {
             "name": "drupal/views_bootstrap",
-            "version": "4.4.0",
+            "version": "5.5.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_bootstrap.git",
-                "reference": "8.x-4.4"
+                "reference": "5.5.0-alpha1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_bootstrap-8.x-4.4.zip",
-                "reference": "8.x-4.4",
-                "shasum": "ce9cb9a3ac46132e9ce993295caa213ebd3e941e"
+                "url": "https://ftp.drupal.org/files/projects/views_bootstrap-5.5.0-alpha1.zip",
+                "reference": "5.5.0-alpha1",
+                "shasum": "5f5f82dd33c01271c24f8feeac2a45dc49212cf3"
             },
             "require": {
                 "drupal/core": "^9 || ^10"
@@ -10487,11 +10589,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-4.4",
-                    "datestamp": "1660766857",
+                    "version": "5.5.0-alpha1",
+                    "datestamp": "1658954516",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -10521,7 +10623,7 @@
                     "homepage": "https://www.drupal.org/user/2674989"
                 }
             ],
-            "description": "Allows for different styles to be used in views to work with Bootstrap 4 components.",
+            "description": "Allows for different styles to be used in views to work with Bootstrap 5 components.",
             "homepage": "https://www.drupal.org/project/views_bootstrap",
             "support": {
                 "source": "https://git.drupalcode.org/project/views_bootstrap"
@@ -17388,6 +17490,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/advancedqueue": 5,
+        "drupal/ai_interpolator": 5,
         "drupal/commerce_feeds": 15,
         "drupal/commerce_pvt": 10,
         "drupal/entity_clone": 10,
@@ -17404,6 +17507,7 @@
         "drupal/term_merge": 10,
         "drupal/tvi": 15,
         "drupal/url_embed": 15,
+        "drupal/views_bootstrap": 15,
         "drupal/webform": 10,
         "drupal/webp": 10
     },

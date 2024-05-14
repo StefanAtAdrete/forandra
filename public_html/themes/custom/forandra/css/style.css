@@ -350,11 +350,12 @@ a.navbar-brand {
   #views-bootstrap-startpage-banners-page-1 > div > div > article > div > div.d-none.d-sm-block._none .container {
     padding: 0;
   }
-
-#views-bootstrap-startpage-banners-page-1 .field--type-image img,
+ 
+ 
+  /* #views-bootstrap-startpage-banners-page-1 .field--type-image img,
 div.card-img-top > div > div > div {
- margin: 0;
-    }
+margin: 0; 
+    }*/
 
 
 .node .field--type-image {

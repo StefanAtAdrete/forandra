@@ -384,7 +384,7 @@ a:hover div.card-img-overlay p {
 
 
 .block-field-blocknodevideo-postfield-terms > div > div > div > a, 
-.block-field-blocknodearticlefield-terms > div > div > div > a {
+.block-field-blocknodearticlefield-tags > div > div > ul > li > a {
   font-style: italic;
     font-size: smaller;
     color: purple;

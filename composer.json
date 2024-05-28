@@ -125,6 +125,7 @@
         "drupal/sharethis_block": "^1.5",
         "drupal/sidr": "^5.0@RC",
         "drupal/simple_sitemap": "^4.1",
+        "drupal/social_post": "^3.0",
         "drupal/superfish": "^1.7",
         "drupal/svg_image": "^3.0",
         "drupal/svg_image_field": "^2.3",

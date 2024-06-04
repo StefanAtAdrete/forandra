@@ -215,6 +215,7 @@ a.navbar-brand {
       background: linear-gradient(90deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6839110644257703) 35%, rgba(0, 0, 0, 0.6811099439775911) 65%, rgba(82, 82, 82, 0) 90%);
       padding: 0.5rem;
   }
+}
 
   @media (min-width: 980px) {
     .flex-caption a {
@@ -481,4 +482,3 @@ a:hover div.card-img-overlay p {
   #block-languageswitcher li a.is-active {
     text-decoration: underline;
   }
-  
